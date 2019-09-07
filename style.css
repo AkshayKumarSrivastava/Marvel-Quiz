@@ -15,6 +15,13 @@ body {
     margin-top: -16px;
 }
  
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="grid"] {
+      width: 100%;
+    }
+  }
+
 .grid {
     width: 600px;
     height: 530px;
@@ -162,3 +169,4 @@ body {
     background: #bb0000;
     color: white;
   }
+
